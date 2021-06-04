@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../css/popup.css">
+</head>
+
+<body>
+  <div class='wrapper'>
+    <div class="intro">
+      <img src="../images/icon128.png" alt="extension_icon" width="25" height="25">
+      <div id='title'>
+        <h2>Strybok</h2>
+      </div>
+    </div>
+
+    <div class='status'>
+      <div>
+        <span class="placeholder">Configuration status:</span>
+        <span id="config_status"></span>
+      </div>
+      <div>
+        <span class="placeholder">Your current team:</span>
+        <span id="team_status"></span>
+      </div>
+    </div>
+
+    <div class='input'>
+      <input type="text" id="path" placeholder="Add a link to configuration file here:">
+      </input>
+      <button type="button" class="button" id="confirm_button">Save</button>
+    </div>
+
+
+    <div class='urls'>
+      <table id="table">
+        <tr>
+          <td id="header">
+            Recent URLs
+          </td>
+        </tr>
+      </table>
+      <button type="button" class="button hidden" id="clear">Clear</button>
+    </div>
+  </div>
+
+  <script src="../js/popup.js"></script>
+</body>
+
+</html>

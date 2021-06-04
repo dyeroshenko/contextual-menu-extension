@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+textarea,
+input,
+button,
+table {
+  outline: none;
+}
+
+body {
+  width: 400px;
+  height: 500px;
+  background-color: #555555;
+}
+
+.wrapper {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 4%;
+  color: white;
+  width: 96%;
+  height: 100%;
+}
+
+.intro {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+img {
+  padding-top: 2%;
+}
+
+#title {
+  padding-left: 3%;
+  padding-top: 3%;
+}
+
+h2:hover {
+  color: #1b047c;
+}
+
+.status {
+  align-self: flex-start;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30px;
+  padding-left: 2%;
+}
+
+.input {
+  margin-top: 6%;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding-bottom: 4%;
+  padding-left: 2%;
+}
+
+input {
+  width: 78%;
+  padding-left: 2%;
+  margin-right: 1%;
+  background-color: #555555;
+  border: 2px solid white
+}
+
+::placeholder {
+  color: white;
+}
+
+.button {
+  width: 15%;
+  background-color: #555555;
+  border: 2px solid white;
+  opacity: 95%;
+  color: white;
+  border-radius: 3px;
+}
+
+button:hover, input:hover {
+  background-color: #989898;
+}
+
+
+.placeholder {
+  font-size: 14px;
+}
+
+#config_status,
+#team_status {
+  color: #3bff16;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.urls {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 2%;
+  padding-left: 1%;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+  width: 100%;
+}
+
+a:visited {
+  color: white;
+}
+
+#clear {
+  width: 15%;
+  height: 30px;
+  margin-top: 3%;
+  align-self: center;
+}
+
+table {
+  color: #E0E0E0;
+  width: 98%;
+  font-size: 13px;
+}
+
+td {
+  padding-top: 1%;
+}
+
+#header {
+  text-align: center;
+  padding: 1%;
+  color: white;
+  font-size: 14px;
+  font-weight: 800;
+  border: 2px solid white;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.active {
+  visibility: visible;
+}
